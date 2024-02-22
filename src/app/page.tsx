@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { ExperienceCard } from "./components/experienceCard";
 import AboutCard from "./components/aboutCard";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
@@ -53,11 +54,40 @@ export default function Home() {
               About Me
             </h2>
             <p className="text-lg text-gray-700">
-              Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-              used in laying out print, graphic or web designs. The passage is
-              attributed to an unknown typesetter in the 15th century who is
-              thought to have scrambled parts of Cicero's De Finibus Bonorum et
-              Malorum for use in a type specimen book. It usually begins with:
+              I'm a versatile software engineer with a passion for both backend
+              and frontend development. With a background in computer science
+              and a wealth of experience in building web-based solutions, I
+              thrive on solving complex problems and creating innovative digital
+              experiences. Whether it's architecting scalable backend systems or
+              crafting elegant frontend interfaces, I'm dedicated to delivering
+              high-quality, user-centric solutions that push the boundaries of
+              what's possible in the digital realm.
+            </p>
+            <p className="font-bold text-lg text-gray-700 pt-5 pb-5">
+              Backend Development:
+            </p>
+            <p className="text-lg text-gray-700">
+              I specialize in crafting the digital infrastructure that powers
+              websites and applications, ensuring they run smoothly and
+              efficiently behind the scenes. From designing databases to
+              implementing server logic and APIs, I thrive on building robust,
+              scalable solutions that meet the unique needs of each project.
+              With expertise in languages like Python, Node.js, and Java, I'm
+              adept at tackling complex backend challenges and optimizing
+              performance for optimal user experiences.
+            </p>
+            <p className="font-bold text-lg text-gray-700 pt-5 pb-5">
+              Frontend Development:
+            </p>
+            <p className="text-lg text-gray-700">
+              As a frontend developer, I bring designs to life and create
+              engaging user interfaces that captivate and delight. With a keen
+              eye for detail and a passion for crafting seamless user
+              experiences, I leverage HTML, CSS, and JavaScript to build
+              dynamic, responsive web applications. From designing layouts to
+              implementing interactive features and ensuring cross-browser
+              compatibility, I take pride in creating intuitive interfaces that
+              make navigating digital environments a breeze.
             </p>
           </section>
 

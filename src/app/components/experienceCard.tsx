@@ -23,13 +23,12 @@ export const ExperienceCard = (props: {
           </h4>
         </div>
 
-        <p className=" text-gray-700">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+        <p className=" text-gray-700 p-2">
+          Chhany Horn is a dynamic leader with 8+ years of experience in mobile
+          app development. Skilled in team management and project execution, He
+          excels in translating business needs into innovative mobile solutions.
+          Known for her strategic thinking and commitment to quality, Chhany is
+          dedicated to driving success in every project she leads.
         </p>
         <a
           className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
